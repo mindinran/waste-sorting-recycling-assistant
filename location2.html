@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>♻Waste Sorting and Recycling Assistant</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="script2.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMKmmj2oUfUoZDmnMmi3tKGWjkPBFlL40&callback=initMap" async defer></script>
+</head>
+<body>
+  <header>
+    <h1>♻Waste Sorting and Recycling Assistan</h1>
+    <nav>
+      <a href="index2.html">Home</a>
+      <a href="guide2.html">Recycling Guide</a>
+      <a href="location2.html">Locations</a>
+    </nav>
+  </header>
+  <main>
+   <section class="search-bar">
+  <input type="text" id="location-input" placeholder="Enter a location (e.g. Colombo)" />
+  <button id="location-search-btn">Search</button>
+</section>
+
+    <div id="map"></div>
+   <div id="results"></div>
+
+    <section class="prices">
+      <h2>Current Recyclable Prices (LKR/kg)</h2>
+      <ul>
+        <li>Plastic: 15 LKR</li>
+        <li>Glass: 10 LKR</li>
+        <li>Paper: 8 LKR</li>
+        <li>Metal: 45 LKR</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
